@@ -1,0 +1,31 @@
+{
+  "name": "@6qat/6qat-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/6qat"
+  },
+  "version": "0.0.1",
+  "description": "My personal Javascript and Typescript library.",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Guilherme C. B. Moreira",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.37",
+    "react": "^18.2.0",
+    "rollup": "^4.3.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.2.2",
+    "tslib": "^2.6.2"
+  },
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
