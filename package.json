@@ -1,8 +1,6 @@
 {
   "name": "@6qat/6qat-lib",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/6qat"
-  },
+ 
   "version": "0.0.1",
   "description": "My personal Javascript and Typescript library.",
   "scripts": {
